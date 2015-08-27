@@ -1,7 +1,5 @@
 language: ruby
 rvm:
-  - 2.2.0
-  - 2.2.2
   - 2.2.3
 before_script:
   - mysql -e 'create database rails4_view_test_test;'
